@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.mainContainer{
+    /* padding: 10px; */
+    position: relative;
+    min-height: 70vh;
+}
+.content{
+    padding-bottom: 2.5rem;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    top: 100rem;
+}

@@ -1,0 +1,22 @@
+.home-container{
+    /* height: 70vh; */
+}
+
+.left-container{
+    background-color: blue;
+    height: 60vh;
+    width: 50%;
+}
+
+.right-container{
+    /* display: inline; */
+    background-color: red;
+    height: 60vh;
+    width: 50%;
+}
+
+.container{
+    float: left;
+    width: 50%;
+    padding-bottom: 0%;
+}

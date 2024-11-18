@@ -1,0 +1,38 @@
+.services-container{
+    margin: auto;
+    width: 70%;
+    
+}
+ .title-name{
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     margin: 0 auto;
+     width: 50%;
+     text-align: center;
+ }
+
+.table-services{
+    margin: auto;
+    width: 100%;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+td{
+    padding-bottom: 1rem;
+    border-bottom: solid black 1px;
+}
+
+th{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid black 1px;
+    background-color: violet;
+    color: black;
+
+}
+
+tr:hover{
+    background-color: fuchsia;
+    font-size: 20px;
+}

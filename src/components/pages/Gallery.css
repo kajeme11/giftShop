@@ -1,0 +1,31 @@
+.picure-container{
+    display: inline-block;
+}
+.gallery-container{
+    margin: 1rem;
+}
+.picture{
+    width: 200px;
+    padding: 10px;
+}
+
+.gallery{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.description{
+    background-color: black;
+    color: aliceblue;
+}
