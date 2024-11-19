@@ -13,9 +13,7 @@ export const Contact = () => {
         event.persist();
         event.preventDefault();
         setIsSubmitted(true);
-        console.log(process.env.REACT_APP_EMAIL_SERVICE_ID);
-        console.log(process.env.REACT_APP_EMAIL_TEMPLATE_ID);
-        console.log(process.env.REACT_APP_EMAIL_PUBLIC_KEY);
+        
         emailjs.sendForm(
             process.env.EMAIL_SERVICE_ID,
             process.env.EMAIL_TEMPLATE_ID,
