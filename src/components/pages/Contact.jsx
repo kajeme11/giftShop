@@ -15,10 +15,10 @@ export const Contact = () => {
         setIsSubmitted(true);
         
         emailjs.sendForm(
-            process.env.EMAIL_SERVICE_ID,
-            process.env.EMAIL_TEMPLATE_ID,
+            process.env.REACT_APP_EMAIL_SERVICE_ID,
+            process.env.REACT_APP_EMAIL_TEMPLATE_ID,
             event.target,
-            process.env.EMAIL_PUBLIC_KEY
+            process.env.REACT_APP_EMAIL_PUBLIC_KEY
         ).then((result) => {
             setStateMessage('Message Sent!');
             setIsSubmitted(false);
