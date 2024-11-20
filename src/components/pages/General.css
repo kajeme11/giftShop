@@ -6,7 +6,7 @@ body{
 }
 .mainContainer{
     position: relative;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 .content{
     padding-bottom: 2.5rem;
