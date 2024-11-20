@@ -2,11 +2,11 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 .mainContainer{
-    /* padding: 10px; */
     position: relative;
-    min-height: 70vh;
+    min-height: 80vh;
 }
 .content{
     padding-bottom: 2.5rem;
