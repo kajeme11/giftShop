@@ -18,7 +18,7 @@ const FadeCarousel = ({images, timeInterval = 3000}) => {
             {images.map((image, index) => (
                 <img key={index} src={image} alt="Hair by Anita"
                 className={
-                    `fade-image ${index == currentIndex ? 'visible' : 'hidden'}`}/>
+                    `fade-image ${index === currentIndex ? 'visible' : 'hidden'}`}/>
                 ))}
         </div>
     )

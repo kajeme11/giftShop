@@ -1,11 +1,12 @@
 .home-container{
-    /* height: 70vh; */
+    height: 90vh;
 }
 
 .left-container{
     /* background-color: blue; */
     height: 60vh;
     width: 50%;
+    max-width: 500px;
 }
 
 .mainContainer .right-container{
@@ -34,3 +35,17 @@
     width: 50%;
     padding-bottom: 0%;
 }
+
+ .context {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 1rem;
+}
+
+ @media (max-width: 400px) {
+    .left-container {
+        height: 90vh;      
+    }
+  }
