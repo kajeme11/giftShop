@@ -1,11 +1,15 @@
-body{
-    display: flex;
-    flex-direction: column;
+/* body{
     min-height: 100vh;
-    min-width: 1024px;
     
-}
+    
+} */
+/* @media (min-width: 900px) {
+    body {
+        min-width: 1024px;
+    }
+  } */
 .mainContainer{
+
     position: relative;
     min-height: 70vh;
 }
@@ -18,3 +22,9 @@ body{
     bottom: 0;
     top: 100rem;
 }
+
+@media (min-width: 768px) {
+    .mainContainer {
+        max-width: 100%;
+    }
+ } 

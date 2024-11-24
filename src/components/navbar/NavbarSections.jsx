@@ -11,6 +11,7 @@ export const NavbarSections = () => {
             <nav className="nav-bar">
             <div>
                 <NavLink className="logo" to="/">Hair By Anita</NavLink>
+                <p className="contact-details">BOOK NOW:</p>
                 <p className="contact-details">(415)-254-8229</p>
                 <p className="contact-details">234 West Portal Ave</p>
                 <p className="contact-details">San Francisco, CA 94127</p>
@@ -29,6 +30,9 @@ export const NavbarSections = () => {
                     </li>
                     <li className="link link-gallery">
                         <NavLink className="title"  to="/gallery">Gallery</NavLink>
+                    </li>
+                    <li className="link link-meet">
+                        <NavLink className="title"  to="/meet">Meet Anita</NavLink>
                     </li>
                     <li className="link link-contact">
                         <NavLink className="title"  to="/contact">Contact</NavLink>

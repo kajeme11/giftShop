@@ -60,7 +60,7 @@
     border-radius: 0.2rem;
 }
 
-@media(max-width: 650px){
+@media(max-width: 800px){
     .nav-bar .menu {
         display: flex;
     }

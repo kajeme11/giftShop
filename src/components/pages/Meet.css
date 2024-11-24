@@ -1,0 +1,25 @@
+.meet-container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+
+}
+.m-container{
+    flex: 1;
+    min-width: 300px;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background: white;
+    border: 1px solid red;
+    box-shadow: 0 2px 5px rga(0, 0, 0, 0.1)
+}
+
+p{
+    margin-top: 1rem;
+    text-align: left;
+    text-justify: newspaper;
+}

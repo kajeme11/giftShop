@@ -1,5 +1,15 @@
-.App {
-  background-color: aliceblue;
-  height: 100%;
-  width: 100%;
+body, html, #root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 110vh; */
+  background-color: white;
+  /* height: 100%; */
+  /* width: 100%; */
 }
