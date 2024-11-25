@@ -13,7 +13,7 @@
 }
 
 .logo{
-    margin: 1rem;
+    margin: 0.5rem;
     text-decoration: none;
     color: violet;
     font-family: cursive;
@@ -104,5 +104,5 @@ nav ul li a:not(.active):hover{
     color: aliceblue;
     margin-top: 0.5rem;
     
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
