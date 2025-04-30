@@ -7,49 +7,29 @@ export const Services = () => {
     return(
         <div className="mainContainer services-container">
             <div className="services content">
-                <h2 className="title-name">Service & Prices</h2>
                 <div className="services-list">
                    <table className="table-services">
                        <tbody>
                         <tr>
-                            <th>Service</th>
-                                <th>Price</th>
+                            <th>Services</th>
                         </tr>
                         <tr>
-                            <td>Root touch up</td>
-                            <td>$105</td>
+                            <td>Productos Nicaraguenses</td>
                         </tr>
                         <tr>
-                            <td>All over color</td>
-                            <td>$135</td>
+                            <td>Aguas Auromaticas</td>
                         </tr>
                         <tr>
-                            <td>Partial highlights</td>
-                            <td>$185-$225</td>
+                            <td>Articulos</td>
                         </tr>
                         <tr>
-                            <td>Full highlight</td>
-                            <td>$225-265</td>
+                            <td>Productos Natutales</td>
                         </tr>
                         <tr>
-                            <td>Partial Balayage</td>
-                            <td>$225-265</td>
+                            <td>Inciensos Aromaticos</td>
                         </tr>
                         <tr>
-                            <td>Full Balayage</td>
-                            <td>$265-295</td>
-                        </tr>
-                        <tr>
-                            <td>Blowdry/style</td>
-                            <td>$65</td>
-                        </tr>
-                        <tr>
-                            <td>Womens haircut</td>
-                            <td>$80</td>
-                        </tr>
-                        <tr>
-                            <td>Toner</td>
-                            <td>$95-135</td>
+                            <td>Cajas De Regalo</td>
                         </tr>
                     </tbody>
                    </table>

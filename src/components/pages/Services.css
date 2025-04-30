@@ -1,14 +1,15 @@
 
 .services-container{
+    top: 50px;;
     margin: auto;
-    width: 70%;
+    width: 60%;
+
     
 }
  .title-name{
      padding-top: 1rem;
      padding-bottom: 1rem;
      margin: 0 auto;
-
      width: 50%;
      text-align: center;
  }
@@ -21,6 +22,7 @@
 }
 
 td{
+    text-align: center;
     padding-bottom: 1rem;
     border-bottom: solid black 1px;
 }

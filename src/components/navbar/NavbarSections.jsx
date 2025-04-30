@@ -9,12 +9,15 @@ export const NavbarSections = () => {
     return(
         <div className="nav-bar-container">
             <nav className="nav-bar">
-            <div>
-                <NavLink className="logo" to="/">Hair By Anita</NavLink>
-                <p className="contact-details">BOOK NOW:</p>
-                <p className="contact-details">(415)-254-8229</p>
-                <p className="contact-details">234 West Portal Ave</p>
-                <p className="contact-details">San Francisco, CA 94127</p>
+            <div className="">
+                <NavLink className="logo" to="/">Ana's Boutique
+                    <div className="sub-logo">Salud Y  Vida</div>
+                <p className="contact-details">(415) 374-4707</p>
+                <p className="contact-details">2437 Mission St</p>
+                <p className="contact-details">San Francisco, CA</p>
+                <p className="contact-details">saludyvida8602@gmail.com</p>
+                </NavLink>
+                
             </div>
             <div className="menu" onClick={ () => {setMenuOpen(!menuOpen)} }>
                 <span></span>
@@ -26,16 +29,13 @@ export const NavbarSections = () => {
                         <NavLink  className="title"  to="/">Home</NavLink>
                     </li>
                     <li className="link link-services">
-                        <NavLink className="title"  to="/services">Services</NavLink>
+                        <NavLink className="title"  to="/services">Typos de Productos</NavLink>
                     </li>
                     <li className="link link-gallery">
-                        <NavLink className="title"  to="/gallery">Gallery</NavLink>
-                    </li>
-                    <li className="link link-meet">
-                        <NavLink className="title"  to="/meet">Meet Anita</NavLink>
+                        <NavLink className="title"  to="/gallery">Productos</NavLink>
                     </li>
                     <li className="link link-contact">
-                        <NavLink className="title"  to="/contact">Contact</NavLink>
+                        <NavLink className="title"  to="/contact">Contacto</NavLink>
                     </li>
                 </ul>
             </nav>
