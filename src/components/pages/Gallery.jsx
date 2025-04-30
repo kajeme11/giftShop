@@ -22,7 +22,7 @@ export const Gallery = () => {
                     <div>
                         <div className="gallery">  
                         {im.map((item, index) =>{
-                            return <img className="picture" key={item} src={item} alt="hair" />
+                            return <img className="picture" key={item} src={item} alt="product" />
                         })
                         }   
                         </div>
