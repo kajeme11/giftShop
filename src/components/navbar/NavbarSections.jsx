@@ -29,7 +29,7 @@ export const NavbarSections = () => {
                         <NavLink  className="title"  to="/">Home</NavLink>
                     </li>
                     <li className="link link-services">
-                        <NavLink className="title"  to="/services">Typos de Productos</NavLink>
+                        <NavLink className="title"  to="/services">Tipos de Productos</NavLink>
                     </li>
                     <li className="link link-gallery">
                         <NavLink className="title"  to="/gallery">Productos</NavLink>
