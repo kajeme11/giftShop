@@ -82,13 +82,13 @@ export const Contact = () => {
                 <h1 className="title-name">Message me!</h1>
                 <form onSubmit={sendMessage}>
                     <label className="name label">Name</label>
-                    <input className="name-input" placeholder="Enter Name..." 
-                        onChange= {handleNameChange} ref={nameRef} value="name" type="text" name="username"></input>
+                    <input className="name-input" placeholder="Enter Name" 
+                        onChange= {handleNameChange} ref={nameRef} type="text" name="username" />
                     <label className="email label">Email</label>
                     <input className="email-input" 
                         placeholder="Enter Email" type="email" name="useremail"/>
                     <label className="message label">Message</label>
-                    <textarea className="test-area label" name="message" />
+                    <textarea className="test-area label" name="message" placeholder="Message..."  />
                     <input type="submit" value="Send" disabled={isSubmitted}/>
                     {error && <p style={{color: "red", marfginTop:"5px"}}>{error}</p>}
                     {stateMessage && <p>{stateMessage}</p>}
